@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(svg_02.png);
+    
+}
+
+\\.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    width: 50px;
+  }
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-imagem{
+    height: 100px;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+}
+.cabecalho-menu-item:hover{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FB3640;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 2.0px solid #fff;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: #FB3640;
+}
+
+.conteudo-principal-sub{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.conteudo-principal-but{
+    background-color: crimson;
+    width: 180px;
+    height: 68px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.30);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.conteudo-principal-but:hover{
+    background-color: #247BA0;
+    width: 180px;
+    height: 78px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.30);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo-principal-img{
+    height: 620px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    padding-top: 48px;
+    margin-bottom: 16px;
+    color: #FB3640;
+}
+
+.conteudo-secundario-p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.conteudo-terciario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 48px;
+
+}
+
+.conteudo-terciario-titulo{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FB3640;
+    gap: 20px;
+    border-top: 2.0px solid #fff;
+
+}
+
+.conteudo-terciario-img{
+    display: block;
+    height: 920px;
+    align-items: center;
+
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 2.0px solid #fff;
+}
+
+.rodape-img{
+    height: 220px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
